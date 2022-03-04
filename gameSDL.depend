@@ -1,0 +1,806 @@
+# depslib dependency file v1.0
+1645198987 source:c:\users\admin\onedrive\máy tính\gamesdl\main.cpp
+	<SDL.h>
+	<stdio.h>
+
+1608572791 c:\users\admin\onedrive\máy tính\gamesdl\sdl_include_lib\sdl\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"SDL_locale.h"
+	"SDL_misc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\gamesdl\sdl_include_lib\sdl\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\gamesdl\sdl_include_lib\sdl\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\gamesdl\sdl_include_lib\sdl\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+	<sdkddkver.h>
+
+1608572791 c:\users\admin\onedrive\máy tính\gamesdl\sdl_include_lib\sdl\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\gamesdl\sdl_include_lib\sdl\include\sdl2\begin_code.h
+
+1608572791 c:\users\admin\onedrive\máy tính\gamesdl\sdl_include_lib\sdl\include\sdl2\close_code.h
+
+1608572791 c:\users\admin\onedrive\máy tính\gamesdl\sdl_include_lib\sdl\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\gamesdl\sdl_include_lib\sdl\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\gamesdl\sdl_include_lib\sdl\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\gamesdl\sdl_include_lib\sdl\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\gamesdl\sdl_include_lib\sdl\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\gamesdl\sdl_include_lib\sdl\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\gamesdl\sdl_include_lib\sdl\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\gamesdl\sdl_include_lib\sdl\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\gamesdl\sdl_include_lib\sdl\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\gamesdl\sdl_include_lib\sdl\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\gamesdl\sdl_include_lib\sdl\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\gamesdl\sdl_include_lib\sdl\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\gamesdl\sdl_include_lib\sdl\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\gamesdl\sdl_include_lib\sdl\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\gamesdl\sdl_include_lib\sdl\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\gamesdl\sdl_include_lib\sdl\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\gamesdl\sdl_include_lib\sdl\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\gamesdl\sdl_include_lib\sdl\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\gamesdl\sdl_include_lib\sdl\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\gamesdl\sdl_include_lib\sdl\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\gamesdl\sdl_include_lib\sdl\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\gamesdl\sdl_include_lib\sdl\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\gamesdl\sdl_include_lib\sdl\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\gamesdl\sdl_include_lib\sdl\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\gamesdl\sdl_include_lib\sdl\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\gamesdl\sdl_include_lib\sdl\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\gamesdl\sdl_include_lib\sdl\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\gamesdl\sdl_include_lib\sdl\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\gamesdl\sdl_include_lib\sdl\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\gamesdl\sdl_include_lib\sdl\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\gamesdl\sdl_include_lib\sdl\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\gamesdl\sdl_include_lib\sdl\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\gamesdl\sdl_include_lib\sdl\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\gamesdl\sdl_include_lib\sdl\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\gamesdl\sdl_include_lib\sdl\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\gamesdl\sdl_include_lib\sdl\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\gamesdl\sdl_include_lib\sdl\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\gamesdl\sdl_include_lib\sdl\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\gamesdl\sdl_include_lib\sdl\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\gamesdl\sdl_include_lib\sdl\include\sdl2\sdl_locale.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\gamesdl\sdl_include_lib\sdl\include\sdl2\sdl_misc.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1646268878 source:c:\users\admin\onedrive\máy tính\flappy bird\main.cpp
+	"Control.h"
+
+1646035753 c:\users\admin\onedrive\máy tính\flappy bird\gameloop.h
+	<SDL.h>
+	<SDL_image.h>
+	<iostream>
+	"Player.h"
+	"Background.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\flappy bird\sdl_include_lib\sdl\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"SDL_locale.h"
+	"SDL_misc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\flappy bird\sdl_include_lib\sdl\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\flappy bird\sdl_include_lib\sdl\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\flappy bird\sdl_include_lib\sdl\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+	<sdkddkver.h>
+
+1608572791 c:\users\admin\onedrive\máy tính\flappy bird\sdl_include_lib\sdl\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\flappy bird\sdl_include_lib\sdl\include\sdl2\begin_code.h
+
+1608572791 c:\users\admin\onedrive\máy tính\flappy bird\sdl_include_lib\sdl\include\sdl2\close_code.h
+
+1608572791 c:\users\admin\onedrive\máy tính\flappy bird\sdl_include_lib\sdl\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\flappy bird\sdl_include_lib\sdl\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\flappy bird\sdl_include_lib\sdl\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\flappy bird\sdl_include_lib\sdl\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\flappy bird\sdl_include_lib\sdl\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\flappy bird\sdl_include_lib\sdl\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\flappy bird\sdl_include_lib\sdl\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\flappy bird\sdl_include_lib\sdl\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\flappy bird\sdl_include_lib\sdl\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\flappy bird\sdl_include_lib\sdl\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\flappy bird\sdl_include_lib\sdl\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\flappy bird\sdl_include_lib\sdl\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\flappy bird\sdl_include_lib\sdl\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\flappy bird\sdl_include_lib\sdl\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\flappy bird\sdl_include_lib\sdl\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\flappy bird\sdl_include_lib\sdl\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\flappy bird\sdl_include_lib\sdl\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\flappy bird\sdl_include_lib\sdl\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\flappy bird\sdl_include_lib\sdl\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\flappy bird\sdl_include_lib\sdl\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\flappy bird\sdl_include_lib\sdl\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\flappy bird\sdl_include_lib\sdl\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\flappy bird\sdl_include_lib\sdl\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\flappy bird\sdl_include_lib\sdl\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\flappy bird\sdl_include_lib\sdl\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\flappy bird\sdl_include_lib\sdl\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\flappy bird\sdl_include_lib\sdl\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\flappy bird\sdl_include_lib\sdl\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\flappy bird\sdl_include_lib\sdl\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\flappy bird\sdl_include_lib\sdl\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\flappy bird\sdl_include_lib\sdl\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\flappy bird\sdl_include_lib\sdl\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\flappy bird\sdl_include_lib\sdl\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\flappy bird\sdl_include_lib\sdl\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\flappy bird\sdl_include_lib\sdl\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\flappy bird\sdl_include_lib\sdl\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\flappy bird\sdl_include_lib\sdl\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\flappy bird\sdl_include_lib\sdl\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\flappy bird\sdl_include_lib\sdl\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\flappy bird\sdl_include_lib\sdl\include\sdl2\sdl_locale.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572791 c:\users\admin\onedrive\máy tính\flappy bird\sdl_include_lib\sdl\include\sdl2\sdl_misc.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1646035825 source:c:\users\admin\onedrive\máy tính\flappy bird\gameloop.cpp
+	"GameLoop.h"
+	"Player.h"
+
+1561870368 c:\users\admin\onedrive\máy tính\flappy bird\sdl_include_lib\sdl_image\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1646033610 source:c:\users\admin\onedrive\máy tính\flappy bird\texturemanager.cpp
+	"TextureManager.h"
+
+1646035763 c:\users\admin\onedrive\máy tính\flappy bird\texturemanager.h
+	<SDL.h>
+	<SDL_image.h>
+
+1645581666 c:\users\admin\onedrive\máy tính\flappy bird\player.h
+	"Object.h"
+
+1645835889 c:\users\admin\onedrive\máy tính\flappy bird\object.h
+	"TextureManager.h"
+
+1645837210 source:c:\users\admin\onedrive\máy tính\flappy bird\player.cpp
+	"Player.h"
+	<iostream>
+
+1646037533 c:\users\admin\onedrive\máy tính\flappy bird\background.h
+	"Object.h"
+
+1645835851 source:c:\users\admin\onedrive\máy tính\flappy bird\object.cpp
+	"Object.h"
+
+1646035729 source:c:\users\admin\onedrive\máy tính\flappy bird\background.cpp
+	"Background.h"
+
+1646268835 source:c:\users\admin\onedrive\máy tính\flappy bird\control.cpp
+	"Control.h"
+	<iostream>
+
+1646361182 c:\users\admin\onedrive\máy tính\flappy bird\control.h
+	<SDL.h>
+	<SDL_Image.h>
+	"GenTexture.h"
+	<iostream>
+
+1646228400 source:c:\users\admin\onedrive\máy tính\flappy bird\gentexture.cpp
+	"GenTexture.h"
+
+1646233338 c:\users\admin\onedrive\máy tính\flappy bird\gentexture.h
+	<SDL.h>
+	<SDL_image.h>
+
