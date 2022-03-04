@@ -1,10 +1,10 @@
 #include"Control.h"
 #include<iostream>
+
 Control::Control()
 {
     window = NULL;
     renderer = NULL;
-
     Continue = true;
     isMenu = true;
 };
