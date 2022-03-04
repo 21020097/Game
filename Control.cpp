@@ -1,12 +1,21 @@
 #include"Control.h"
 #include<iostream>
-
 Control::Control()
 {
     window = NULL;
     renderer = NULL;
+
     Continue = true;
     isMenu = true;
+
+    srcPlayer.h = 60 ;
+    srcPlayer.w = 80 ;
+    srcPlayer.x = srcPlayer.y = 0 ;
+
+    destPlayer.h = 60;
+    destPlayer.w = 80;
+    destPlayer.x = 20 ;
+    destPlayer.y = 20 ;
 };
 
 
@@ -25,6 +34,10 @@ void Control::Init()
 
     Background = GenTexture::Texture("Image/background.png",renderer);
     Menu = GenTexture::Texture("Image/message.png",renderer);
+
+    Bird1 = GenTexture::Texture("Image/yellowbird1.png",renderer);
+    Bird2 = GenTexture::Texture("Image/yellowbird2.png",renderer);
+    Bird3 = GenTexture::Texture("Image/yellowbird3.png",renderer);
 }
 
 void Control::Render_Menu()
@@ -40,6 +53,18 @@ void Control::Render_Background()
     SDL_RenderClear(renderer);
     // Vẽ ảnh ra biến player được copy vào biến render và kéo ra vô định NULL NULL
     SDL_RenderCopy(renderer,Background,NULL,NULL);
+
+    // Vẽ con chim
+
+    SDL_RenderCopy(renderer,Bird1,&srcPlayer,&destPlayer);
+    SDL_Delay(10);
+    //SDL_RenderCopy(renderer,Bird2,&srcPlayer,&destPlayer);
+        SDL_Delay(10);
+
+    //SDL_RenderCopy(renderer,Bird3,&srcPlayer,&destPlayer);
+        SDL_Delay(10);
+
+
     // Mang hết tất cả thông tin của renderer vẽ ra màn hình
     SDL_RenderPresent(renderer);
 }
@@ -72,6 +97,7 @@ void Control::Event()
         if(event.key.keysym.sym==SDLK_w)
         {
             std::cout<<"Success";
+            destPlayer.y-=15;
         }
 
         if(event.key.keysym.sym==SDLK_q)
@@ -80,6 +106,12 @@ void Control::Event()
         }
     }
 }
+
+void Control::Update()
+{
+    destPlayer.y+=3;SDL_Delay(10);
+}
+
 
 bool Control::getContinue()
 {

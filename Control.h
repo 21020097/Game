@@ -21,9 +21,15 @@ private:
     bool Continue;
     bool isMenu;
 
+
     SDL_Texture* Background;
     SDL_Texture* Menu;
-    //SDL_Rect Bird,srcPlayer,destPlayer;
+
+    // Con chim
+    SDL_Rect srcPlayer,destPlayer;
+    SDL_Texture* Bird1;
+    SDL_Texture* Bird2;
+    SDL_Texture* Bird3;
 public:
     Control();
     bool getisMenu();
@@ -31,6 +37,7 @@ public:
 
     void Init();
     void Event();
+    void Update();
     void Render_Background();
     void Render_Menu();
     void Clear();
