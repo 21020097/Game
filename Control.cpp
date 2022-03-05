@@ -1,6 +1,6 @@
 #include"Control.h"
+#include<bits/stdc++.h>
 
-#include<iostream>
 Control::Control()
 {
     window = NULL;
@@ -8,15 +8,30 @@ Control::Control()
     Continue = true;
 
     Bird.setSrc(0, 0, 28, 38);
-	Bird.setDest(0, HEIGHT/2, 28, 38);
 
 	Mess.setSrc(0,0,600,400);
 	Mess.setDest(200,0,600,400);
 
 	Background.setSrc(0,0,600,800);
 	Background.setDest(0,0,600,800);
+
+	BU.setSrc(0,0,400,100);
+	BD.setSrc(0,0,400,100);
 	Time = 0;
 };
+
+void Control::GenBlock()
+{
+    //srand(time(0));
+    blockU[0].x = 500;blockU[0].y=0;blockU[0].h=200,blockU[0].w=80;
+    blockD[0].x = 500;blockD[0].y=400;blockD[0].h=200,blockD[0].w=80;
+
+    for(int i=1;i<2000;++i) blockU[i]=blockU[i-1];
+    for(int i=1;i<2000;++i) blockD[i]=blockD[i-1];
+    for(int i=1;i<2000;++i) blockU[i].x = blockU[i-1].x + 160;
+    for(int i=1;i<2000;++i) blockD[i].x = blockD[i-1].x + 160;
+
+}
 
 
 void Control::Init()
@@ -31,6 +46,8 @@ void Control::Init()
 
     Background.CreateTexture("Image/background.png", renderer);
     Mess.CreateTexture("Image/message.png",renderer);
+    BU.CreateTexture("Image/pipe_Above.png",renderer);
+    BD.CreateTexture("Image/pipe_Below.png",renderer);
 }
 
 
@@ -95,7 +112,26 @@ void Control::Render()
     {
         SDL_RenderClear(renderer);
         Background.Render(renderer);
+        for(int i=0;i<2000;++i)
+        {
+            blockU[i].x-=6;
+            BU.setDest(blockU[i].x,blockU[i].y,blockU[i].h,blockU[i].w);
+            blockD[i].x-=6;
+            BD.setDest(blockD[i].x,blockD[i].y,blockD[i].h,blockD[i].w);
+            if(blockD[i].x>=-80&&blockD[i].x<=800)
+            {
+                BU.Render(renderer);
+                BD.Render(renderer);
+            }
+        }
+
+
+
+        BD.Render(renderer);
+
         Bird.Render(renderer);
+
+
         SDL_RenderPresent(renderer);
     }
 }

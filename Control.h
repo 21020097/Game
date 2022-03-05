@@ -25,6 +25,14 @@ private:
     Object Background ;
     Object Mess;
 
+    struct Node
+    {
+        double x,y,h,w;
+    }blockU[2000],blockD[2000];
+
+
+    Object BU,BD;
+
 public:
     Control();
     bool getContinue();
@@ -34,6 +42,6 @@ public:
     void sendmess();
     void Render();
     void Clear();
-
+    void GenBlock();
     void MainMenu();
 };

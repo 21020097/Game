@@ -10,6 +10,7 @@ int main(int argc,char** argv)
 //start:
     game -> MainMenu();
 
+    game->GenBlock();
 double first,last=0;
     long long time = 0;
     while(game->getContinue())
