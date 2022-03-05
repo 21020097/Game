@@ -45,8 +45,6 @@
 		</Linker>
 		<Unit filename="Control.cpp" />
 		<Unit filename="Control.h" />
-		<Unit filename="GenTexture.cpp" />
-		<Unit filename="GenTexture.h" />
 		<Unit filename="MainMenu.cpp" />
 		<Unit filename="MainMenu.h" />
 		<Unit filename="Menu.h" />

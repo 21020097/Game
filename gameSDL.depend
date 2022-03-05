@@ -1186,10 +1186,10 @@
 	"begin_code.h"
 	"close_code.h"
 
-1646462970 source:c:\users\admin\onedrive\máy tính\game\main.cpp
+1646466804 source:c:\users\admin\onedrive\máy tính\game\main.cpp
 	"Control.h"
 
-1646461795 c:\users\admin\onedrive\máy tính\game\control.h
+1646467126 c:\users\admin\onedrive\máy tính\game\control.h
 	<SDL.h>
 	<SDL_image.h>
 	<SDL_mixer.h>
@@ -1198,7 +1198,7 @@
 	"Player.h"
 	<iostream>
 
-1646463005 source:c:\users\admin\onedrive\máy tính\game\control.cpp
+1646466823 source:c:\users\admin\onedrive\máy tính\game\control.cpp
 	"Control.h"
 	<iostream>
 
@@ -1214,10 +1214,10 @@
 	<stdio.h>
 	<string>
 
-1646461107 source:c:\users\admin\onedrive\máy tính\game\object.cpp
+1646466886 source:c:\users\admin\onedrive\máy tính\game\object.cpp
 	"Object.h"
 
-1646461112 c:\users\admin\onedrive\máy tính\game\object.h
+1646465064 c:\users\admin\onedrive\máy tính\game\object.h
 	<SDL.h>
 	<SDL_image.h>
 	<SDL_mixer.h>
@@ -1244,14 +1244,21 @@
 	"begin_code.h"
 	"close_code.h"
 
-1646463136 c:\users\admin\onedrive\máy tính\game\player.h
+1646465518 c:\users\admin\onedrive\máy tính\game\player.h
 	<SDL.h>
 	<SDL_image.h>
 	<SDL_mixer.h>
 	<SDL_ttf.h>
 	"Object.h"
 
-1646461930 source:c:\users\admin\onedrive\máy tính\game\player.cpp
+1646465557 source:c:\users\admin\onedrive\máy tính\game\player.cpp
 	"Player.h"
 	<iostream>
+
+1646464016 source:c:\users\admin\onedrive\máy tính\game\background.cpp
+	"Background.h"
+	<cstdlib>
+
+1646463554 c:\users\admin\onedrive\máy tính\game\background.h
+	"Object.h"
 

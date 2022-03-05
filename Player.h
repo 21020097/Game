@@ -18,6 +18,7 @@ private:
     double lastJump = 0;
     SDL_Texture* Tex1;
     SDL_Texture* Tex2;
+    SDL_Texture* Tex3;
     int animationTimer;
 public:
     void Gravity();

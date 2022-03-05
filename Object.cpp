@@ -37,4 +37,8 @@ void Object::CreateTexture(const char* path,SDL_Renderer* ren)
     Tex = TextureManager::Texture(path,ren);
 }
 
+void Object::Render(SDL_Renderer* ren)
+{
+    SDL_RenderCopyEx(ren,Tex,&src,&dest,0, NULL, SDL_FLIP_NONE);
+}
 

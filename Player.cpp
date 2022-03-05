@@ -6,22 +6,20 @@ void Player::Render(SDL_Renderer* ren)
 	animationTimer++;
 	SDL_Rect pSRC = getSrc();
 	SDL_Rect pDest = getDest();
-	if (animationTimer < 16)
-	{
-		SDL_RenderCopyEx(ren, getTexture(), &pSRC, &pDest, 0, NULL, SDL_FLIP_NONE);
-	}
-	else if (animationTimer >= 16 && animationTimer <= 32)
+	if (animationTimer < 10)
 	{
 		SDL_RenderCopyEx(ren, Tex1, &pSRC, &pDest, 0, NULL, SDL_FLIP_NONE);
 	}
-	else if (animationTimer > 32)
+	else if (animationTimer >= 10 && animationTimer <= 20)
 	{
 		SDL_RenderCopyEx(ren, Tex2, &pSRC, &pDest, 0, NULL, SDL_FLIP_NONE);
 	}
-	if (animationTimer > 48)
+	else if (animationTimer > 20)
 	{
-		animationTimer = 0;
+		SDL_RenderCopyEx(ren, Tex3, &pSRC, &pDest, 0, NULL, SDL_FLIP_NONE);
 	}
+	if (animationTimer > 30) animationTimer = 0;
+
 }
 
 int Player::getYpos()
@@ -100,5 +98,5 @@ void Player::CreateTexture2(const char* address, SDL_Renderer* ren)
 
 void Player::CreateTexture3(const char* address, SDL_Renderer* ren)
 {
-	Tex2 = TextureManager::Texture(address, ren);
+	Tex3 = TextureManager::Texture(address, ren);
 }

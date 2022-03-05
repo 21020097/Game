@@ -21,6 +21,9 @@ private:
     MainMenu Menu;
 
     Player Bird;
+    long long Time  = 0;
+    Object Background ;
+    Object Mess;
 
 public:
     Control();
@@ -28,7 +31,7 @@ public:
     void Init();
     void Event();
     void Update();
-
+    void sendmess();
     void Render();
     void Clear();
 

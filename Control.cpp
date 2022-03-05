@@ -7,8 +7,15 @@ Control::Control()
     renderer = NULL;
     Continue = true;
 
-    Bird.setSrc(0, 0, 24, 32);
-	Bird.setDest(25, HEIGHT/2, 28, 38);
+    Bird.setSrc(0, 0, 28, 38);
+	Bird.setDest(0, HEIGHT/2, 28, 38);
+
+	Mess.setSrc(0,0,600,400);
+	Mess.setDest(200,0,600,400);
+
+	Background.setSrc(0,0,600,800);
+	Background.setDest(0,0,600,800);
+	Time = 0;
 };
 
 
@@ -21,6 +28,9 @@ void Control::Init()
     Bird.CreateTexture1("Image/yellowbird1.png", renderer);
     Bird.CreateTexture2("Image/yellowbird2.png", renderer);
     Bird.CreateTexture3("Image/yellowbird3.png", renderer);
+
+    Background.CreateTexture("Image/background.png", renderer);
+    Mess.CreateTexture("Image/message.png",renderer);
 }
 
 
@@ -51,8 +61,8 @@ void Control::MainMenu()
 
 void Control::Event()
 {
-    Bird.GetJumpTime();
 	SDL_PollEvent(&event);
+	    Bird.GetJumpTime();
 
 	if (event.type == SDL_QUIT) Continue = false;
 
@@ -60,17 +70,32 @@ void Control::Event()
 	{
 		if (event.key.keysym.sym == SDLK_UP)
 		{
-			if (!Bird.JumpState()) Bird.Jump();
-			else Bird.Gravity();
-		}
+			if (!Bird.JumpState()) Bird.Jump();else Bird.Gravity();
+		}else Bird.Gravity();
 	}
 	else Bird.Gravity();
 
 }
 
+
+
 void Control::Render()
 {
-	SDL_RenderClear(renderer);
-	Bird.Render(renderer);
-	SDL_RenderPresent(renderer);
+    Time++;
+
+    if(Time<100)
+    {
+        SDL_RenderClear(renderer);
+        Background.Render(renderer);
+        Mess.Render(renderer);
+        Bird.Render(renderer);
+        SDL_RenderPresent(renderer);
+    }
+    else
+    {
+        SDL_RenderClear(renderer);
+        Background.Render(renderer);
+        Bird.Render(renderer);
+        SDL_RenderPresent(renderer);
+    }
 }

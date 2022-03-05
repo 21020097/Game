@@ -18,4 +18,5 @@ public:
 	void setSrc(int x, int y, int h, int w);
 	void setDest(int x, int y, int h, int w);
 	void CreateTexture(const char* path,SDL_Renderer* ren);
+    void Render(SDL_Renderer* ren);
 };
