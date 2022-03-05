@@ -32,4 +32,9 @@ void Object::setDest(int x, int y, int h, int w)
 	dest.w = w;
 }
 
+void Object::CreateTexture(const char* path,SDL_Renderer* ren)
+{
+    Tex = TextureManager::Texture(path,ren);
+}
+
 

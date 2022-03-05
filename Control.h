@@ -4,6 +4,7 @@
 #include <SDL_mixer.h>
 #include "TextureManager.h"
 #include "MainMenu.h"
+#include "Player.h"
 #include<iostream>
 
 class Control
@@ -19,6 +20,7 @@ private:
     bool Continue;
     MainMenu Menu;
 
+    Player Bird;
 
 public:
     Control();
@@ -26,6 +28,8 @@ public:
     void Init();
     void Event();
     void Update();
+
+    void Render();
     void Clear();
 
     void MainMenu();

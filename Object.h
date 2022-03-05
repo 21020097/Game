@@ -1,4 +1,8 @@
 #pragma once
+#include<SDL.h>
+#include<SDL_image.h>
+#include<SDL_mixer.h>
+#include<SDL_ttf.h>
 #include"TextureManager.h"
 
 class Object
@@ -13,4 +17,5 @@ public:
 	SDL_Rect getDest();
 	void setSrc(int x, int y, int h, int w);
 	void setDest(int x, int y, int h, int w);
+	void CreateTexture(const char* path,SDL_Renderer* ren);
 };
