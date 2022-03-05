@@ -28,7 +28,10 @@ double first,last=0;
 		last = first;
     }
 
-//goto start;
+
+      SDL_Delay(1000);
+
+
     game->Clear();
     return 0 ;
 }

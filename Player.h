@@ -31,4 +31,5 @@ public:
     void CreateTexture2(const char* address, SDL_Renderer* ren);
     void CreateTexture3(const char* address, SDL_Renderer* ren);
     void Render(SDL_Renderer* ren);
+
 };

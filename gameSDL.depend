@@ -1186,10 +1186,10 @@
 	"begin_code.h"
 	"close_code.h"
 
-1646477386 source:c:\users\admin\onedrive\máy tính\game\main.cpp
+1646489678 source:c:\users\admin\onedrive\máy tính\game\main.cpp
 	"Control.h"
 
-1646476017 c:\users\admin\onedrive\máy tính\game\control.h
+1646489575 c:\users\admin\onedrive\máy tính\game\control.h
 	<SDL.h>
 	<SDL_image.h>
 	<SDL_mixer.h>
@@ -1198,7 +1198,7 @@
 	"Player.h"
 	<iostream>
 
-1646477319 source:c:\users\admin\onedrive\máy tính\game\control.cpp
+1646490787 source:c:\users\admin\onedrive\máy tính\game\control.cpp
 	"Control.h"
 	<bits/stdc++.h>
 
@@ -1244,7 +1244,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1646465518 c:\users\admin\onedrive\máy tính\game\player.h
+1646490705 c:\users\admin\onedrive\máy tính\game\player.h
 	<SDL.h>
 	<SDL_image.h>
 	<SDL_mixer.h>

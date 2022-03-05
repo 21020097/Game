@@ -12,7 +12,7 @@ class Control
 private:
     const int HEIGHT = 600;
     const int WIDTH = 800;
-
+    const int MAXN =5000;
     SDL_Window* window;
     SDL_Renderer* renderer;
     SDL_Event event;
@@ -24,12 +24,12 @@ private:
     long long Time  = 0;
     Object Background ;
     Object Mess;
-
+    Object Over;
     struct Node
     {
-        double x,y,h,w;
-    }blockU[2000],blockD[2000];
-
+        int x,y,h,w;
+    }blockU[5000],blockD[5000];
+    bool isOver;
 
     Object BU,BD;
 
@@ -44,4 +44,6 @@ public:
     void Clear();
     void GenBlock();
     void MainMenu();
+    void GameOver();
+    bool Check(Node a,Node b);
 };
