@@ -1,7 +1,7 @@
 #pragma once
 #include<SDL.h>
 #include<SDL_image.h>
-class GenTexture
+class TextureManager
 {
 public:
     static SDL_Texture* Texture(const char* path,SDL_Renderer* ren);

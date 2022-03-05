@@ -1,7 +1,7 @@
-#include"GenTexture.h"
+#include"TextureManager.h"
 
 // Vẽ ảnh
-SDL_Texture* GenTexture::Texture(const char* path,SDL_Renderer* ren)
+SDL_Texture* TextureManager::Texture(const char* path,SDL_Renderer* ren)
 {
     SDL_Surface* surface;
     surface = IMG_Load(path);

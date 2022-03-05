@@ -6,19 +6,7 @@ Control* game = new Control();
 int main(int argc,char** argv)
 {
     game -> Init();
-
-    while(game->getisMenu()&&game->getContinue())
-    {
-        game->Event();
-        game->Render_Menu();
-    }
-
-    while(game->getContinue())
-    {
-        game->Event();
-        game-> Render_Background();
-    }
-
+    game -> MainMenu();
     game->Clear();
     return 0 ;
 }
