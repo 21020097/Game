@@ -36,8 +36,10 @@
 			<Add directory="SDL_include_lib/SDL_mixer/include/SDL2" />
 		</Compiler>
 		<Linker>
-			<Add option="-lmingw32 -lSDL2main -lSDL2 -lSDL2_image  -ISDL2_mixer" />
-			<Add option="-ISDL2-ttf" />
+			<Add option="-lmingw32 -lSDL2main -lSDL2" />
+			<Add option="-lSDL2_image" />
+			<Add option="-lSDL2_mixer" />
+			<Add option="-lSDL2_ttf" />
 			<Add directory="SDL_include_lib/SDL/lib" />
 			<Add directory="SDL_include_lib/SDL_image/lib" />
 			<Add directory="SDL_include_lib/SDL_mixer/lib" />

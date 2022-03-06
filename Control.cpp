@@ -22,6 +22,8 @@ Control::Control()
 	BU.setSrc(0,0,400,100);
 	BD.setSrc(0,0,400,100);
 	Time = 0;
+
+	click = Mix_LoadWAV("Mix/Clicked.wav");
 };
 
 void Control::GenBlock()
@@ -80,7 +82,7 @@ void Control::MainMenu()
     Menu.Init(renderer);
     while(!Menu.getClicked())
     {
-        if(Menu.EventHandling(event) == -1)
+        if(Menu.EventHandling(event,renderer) == -1)
         {
             Continue = false ;
             break ;
@@ -96,12 +98,17 @@ void Control::Event()
 
 	if (event.type == SDL_QUIT) Continue = false;
 	if(Bird.getYpos()<=0||Bird.getYpos()>=HEIGHT) isOver=true;
-	if (isOver) Continue = false ;
+	if (isOver)
+    {
+        //if(event.type==SDL_MOUSEBUTTONDOWN)
+        Continue = false ;
+    }
 
     if (event.type == SDL_KEYDOWN||event.type==SDL_MOUSEBUTTONDOWN)
 	{
 		if (event.key.keysym.sym == SDLK_UP||event.type==SDL_MOUSEBUTTONDOWN)
 		{
+		    Mix_PlayChannel( -1,click, 0 );
 			if (!Bird.JumpState()) Bird.Jump();else Bird.Gravity();
 		}else Bird.Gravity();
 	}
@@ -175,11 +182,11 @@ void Control::Render()
         BD.Render(renderer);
 
         Bird.Render(renderer);
-        //SDL_Delay(100);
         if(isOver)
         {
             Over.Render(renderer);
         }
+
 
         SDL_RenderPresent(renderer);
     }

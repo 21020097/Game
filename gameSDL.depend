@@ -1186,10 +1186,11 @@
 	"begin_code.h"
 	"close_code.h"
 
-1646489678 source:c:\users\admin\onedrive\máy tính\game\main.cpp
+1646546672 source:c:\users\admin\onedrive\máy tính\game\main.cpp
 	"Control.h"
+	<SDL_mixer.h>
 
-1646489575 c:\users\admin\onedrive\máy tính\game\control.h
+1646546923 c:\users\admin\onedrive\máy tính\game\control.h
 	<SDL.h>
 	<SDL_image.h>
 	<SDL_mixer.h>
@@ -1198,7 +1199,7 @@
 	"Player.h"
 	<iostream>
 
-1646490787 source:c:\users\admin\onedrive\máy tính\game\control.cpp
+1646547040 source:c:\users\admin\onedrive\máy tính\game\control.cpp
 	"Control.h"
 	<bits/stdc++.h>
 
@@ -1206,13 +1207,14 @@
 	<SDL.h>
 	<SDL_image.h>
 
-1646459356 c:\users\admin\onedrive\máy tính\game\mainmenu.h
+1646499431 c:\users\admin\onedrive\máy tính\game\mainmenu.h
 	<SDL.h>
 	<SDL_image.h>
 	<SDL_mixer.h>
 	"TextureManager.h"
 	<stdio.h>
 	<string>
+	"Object.h"
 
 1646466886 source:c:\users\admin\onedrive\máy tính\game\object.cpp
 	"Object.h"
@@ -1227,7 +1229,7 @@
 1646457093 source:c:\users\admin\onedrive\máy tính\game\texturemanager.cpp
 	"TextureManager.h"
 
-1646459321 source:c:\users\admin\onedrive\máy tính\game\mainmenu.cpp
+1646499918 source:c:\users\admin\onedrive\máy tính\game\mainmenu.cpp
 	"MainMenu.h"
 
 1540997992 c:\users\admin\onedrive\máy tính\game\sdl_include_lib\sdl_mixer\include\sdl2\sdl_mixer.h

@@ -30,7 +30,7 @@ private:
         int x,y,h,w;
     }blockU[5000],blockD[5000];
     bool isOver;
-
+    Mix_Chunk *click;
     Object BU,BD;
 
 public:
