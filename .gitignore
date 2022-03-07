@@ -29,4 +29,11 @@
 # Executables
 *.exe
 *.out
+<<<<<<< HEAD
 *.app
+=======
+*.app
+*.cbp
+*.layout
+*.depend
+>>>>>>> 3d1fe6cf16db9604e16ef016b30fab073d203da1

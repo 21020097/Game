@@ -108,7 +108,7 @@ void Control::Event()
 	{
 		if (event.key.keysym.sym == SDLK_UP||event.type==SDL_MOUSEBUTTONDOWN)
 		{
-		    Mix_PlayChannel( -1,click, 0 );
+		    Mix_PlayChannel( -1,click,0);
 			if (!Bird.JumpState()) Bird.Jump();else Bird.Gravity();
 		}else Bird.Gravity();
 	}
