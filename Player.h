@@ -2,7 +2,6 @@
 #include<SDL.h>
 #include<SDL_image.h>
 #include<SDL_mixer.h>
-#include<SDL_ttf.h>
 #include "Object.h"
 
 class Player :public Object
@@ -30,6 +29,6 @@ public:
     void CreateTexture1(const char* address, SDL_Renderer* ren);
     void CreateTexture2(const char* address, SDL_Renderer* ren);
     void CreateTexture3(const char* address, SDL_Renderer* ren);
-    void Render(SDL_Renderer* ren);
+    void Render(SDL_Renderer* ren,double anpha);
 
 };

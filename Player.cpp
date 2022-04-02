@@ -1,22 +1,23 @@
+
 #include "Player.h"
 #include<iostream>
 
-void Player::Render(SDL_Renderer* ren)
+void Player::Render(SDL_Renderer* ren,double anpha)
 {
 	animationTimer++;
 	SDL_Rect pSRC = getSrc();
 	SDL_Rect pDest = getDest();
 	if (animationTimer < 10)
 	{
-		SDL_RenderCopyEx(ren, Tex1, &pSRC, &pDest, 0, NULL, SDL_FLIP_NONE);
+		SDL_RenderCopyEx(ren, Tex1, &pSRC, &pDest, anpha, NULL, SDL_FLIP_NONE);
 	}
 	else if (animationTimer >= 10 && animationTimer <= 20)
 	{
-		SDL_RenderCopyEx(ren, Tex2, &pSRC, &pDest, 0, NULL, SDL_FLIP_NONE);
+		SDL_RenderCopyEx(ren, Tex2, &pSRC, &pDest, anpha, NULL, SDL_FLIP_NONE);
 	}
 	else if (animationTimer > 20)
 	{
-		SDL_RenderCopyEx(ren, Tex3, &pSRC, &pDest, 0, NULL, SDL_FLIP_NONE);
+		SDL_RenderCopyEx(ren, Tex3, &pSRC, &pDest, anpha, NULL, SDL_FLIP_NONE);
 	}
 	if (animationTimer > 30) animationTimer = 0;
 
@@ -35,7 +36,7 @@ void Player::Gravity()
 		accelerator2 = accelerator2 + 0.035;
 		jumpHeight = jumpHeight + gravity;
 		Ypos = Ypos + gravity + accelerator1 + accelerator2 + jumpHeight;
-		setDest(200, Ypos, 28, 38);
+		setDest(225, Ypos, 40, 50);
 		if (jumpHeight > 0)
 		{
 			inJump = false;
@@ -48,7 +49,7 @@ void Player::Gravity()
 		accelerator1 = accelerator1 + 0.035;
 		accelerator2 = accelerator2 + 0.035;
 		Ypos = Ypos + gravity + accelerator1 + accelerator2;
-		setDest(200, Ypos, 28, 38);
+		setDest(225, Ypos, 40, 50);
 	}
 
 }

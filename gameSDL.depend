@@ -1186,20 +1186,22 @@
 	"begin_code.h"
 	"close_code.h"
 
-1646546672 source:c:\users\admin\onedrive\máy tính\game\main.cpp
+1648870272 source:c:\users\admin\onedrive\máy tính\game\main.cpp
 	"Control.h"
-	<SDL_mixer.h>
 
-1646546923 c:\users\admin\onedrive\máy tính\game\control.h
+1648873168 c:\users\admin\onedrive\máy tính\game\control.h
 	<SDL.h>
 	<SDL_image.h>
 	<SDL_mixer.h>
 	"TextureManager.h"
 	"MainMenu.h"
 	"Player.h"
-	<iostream>
+	<bits/stdc++.h>
+	"Coin.h"
+	"Score.h"
+	"bestscore.h"
 
-1646624682 source:c:\users\admin\onedrive\máy tính\game\control.cpp
+1648878552 source:c:\users\admin\onedrive\máy tính\game\control.cpp
 	"Control.h"
 	<bits/stdc++.h>
 
@@ -1207,7 +1209,7 @@
 	<SDL.h>
 	<SDL_image.h>
 
-1646499431 c:\users\admin\onedrive\máy tính\game\mainmenu.h
+1647748593 c:\users\admin\onedrive\máy tính\game\mainmenu.h
 	<SDL.h>
 	<SDL_image.h>
 	<SDL_mixer.h>
@@ -1215,11 +1217,12 @@
 	<stdio.h>
 	<string>
 	"Object.h"
+	"Player.h"
 
 1646466886 source:c:\users\admin\onedrive\máy tính\game\object.cpp
 	"Object.h"
 
-1646465064 c:\users\admin\onedrive\máy tính\game\object.h
+1647750190 c:\users\admin\onedrive\máy tính\game\object.h
 	<SDL.h>
 	<SDL_image.h>
 	<SDL_mixer.h>
@@ -1229,8 +1232,9 @@
 1646457093 source:c:\users\admin\onedrive\máy tính\game\texturemanager.cpp
 	"TextureManager.h"
 
-1646499918 source:c:\users\admin\onedrive\máy tính\game\mainmenu.cpp
+1647748573 source:c:\users\admin\onedrive\máy tính\game\mainmenu.cpp
 	"MainMenu.h"
+	"Control.h"
 
 1540997992 c:\users\admin\onedrive\máy tính\game\sdl_include_lib\sdl_mixer\include\sdl2\sdl_mixer.h
 	"SDL_stdinc.h"
@@ -1246,14 +1250,13 @@
 	"begin_code.h"
 	"close_code.h"
 
-1646490705 c:\users\admin\onedrive\máy tính\game\player.h
+1647828315 c:\users\admin\onedrive\máy tính\game\player.h
 	<SDL.h>
 	<SDL_image.h>
 	<SDL_mixer.h>
-	<SDL_ttf.h>
 	"Object.h"
 
-1646475070 source:c:\users\admin\onedrive\máy tính\game\player.cpp
+1647859093 source:c:\users\admin\onedrive\máy tính\game\player.cpp
 	"Player.h"
 	<iostream>
 
@@ -1263,4 +1266,44 @@
 
 1646463554 c:\users\admin\onedrive\máy tính\game\background.h
 	"Object.h"
+
+1647743952 source:c:\users\admin\onedrive\máy tính\game\block.cpp
+	"block.h"
+
+1647743937 c:\users\admin\onedrive\máy tính\game\block.h
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<iostream>
+
+1648254094 source:c:\users\admin\onedrive\máy tính\game\coin.cpp
+	"Coin.h"
+
+1648254124 c:\users\admin\onedrive\máy tính\game\coin.h
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	"Object.h"
+	"TextureManager.h"
+
+1647836202 source:c:\users\admin\onedrive\máy tính\game\pipe.cpp
+
+1647834268 c:\users\admin\onedrive\máy tính\game\pipe.h
+	"Object.h"
+	<ctime>
+
+1648878457 c:\users\admin\onedrive\máy tính\game\score.h
+	<SDL.h>
+	<SDL_image.h>
+	<bits/stdc++.h>
+	"Object.h"
+
+1648878704 source:c:\users\admin\onedrive\máy tính\game\score.cpp
+	"Score.h"
+
+1648870725 source:c:\users\admin\onedrive\máy tính\game\bestscore.cpp
+	"bestscore.h"
+
+1648870815 c:\users\admin\onedrive\máy tính\game\bestscore.h
+	<bits/stdc++.h>
 

@@ -1,35 +1,33 @@
 #include"Control.h"
-#include <SDL_mixer.h>
-Mix_Chunk* gMusic ;
-int main(int argc,char** argv)
+void INIT()
 {
+    SDL_Init(SDL_INIT_EVERYTHING);
+
     if( SDL_Init( SDL_INIT_VIDEO | SDL_INIT_AUDIO ) < 0 )
     {
         printf( "SDL could not initialize! SDL Error: %s\n", SDL_GetError() );
-        //success = false;
     }
 
     if( Mix_OpenAudio( 44100, MIX_DEFAULT_FORMAT, 2, 2048 ) < 0 )
     {
-                    printf( "SDL_mixer could not initialize! SDL_mixer Error: %s\n", Mix_GetError() );
-                    //success = false;
+        printf( "SDL_mixer could not initialize! SDL_mixer Error: %s\n", Mix_GetError() );
     }
+}
+Control* game = new Control();
+int main(int argc,char** argv)
+{
+    INIT();
 
 
-    Control* game = new Control();
-    gMusic = Mix_LoadWAV( "Mix/beat.wav" );
-    Mix_PlayChannel( -1, gMusic, -1 );
     game -> Init();
-    game -> MainMenu();
-    game->GenBlock();
     long long time = 0;
     double first,last=0;
-    while(game->getContinue())
+    game -> Gen();
+    while(!game->getExit())
     {
-        time++;
         game->Event();
-
         game->Render();
+
 
         first = SDL_GetTicks();
 		if (first - last < 16.7)
@@ -38,9 +36,7 @@ int main(int argc,char** argv)
 		}
 		last = first;
     }
-
     game->Clear();
-
     return 0 ;
 }
 

@@ -45,17 +45,24 @@
 			<Add directory="SDL_include_lib/SDL_mixer/lib" />
 			<Add directory="SDL_include_lib/SDL_ttf/lib" />
 		</Linker>
+		<Unit filename="Coin.cpp" />
+		<Unit filename="Coin.h" />
 		<Unit filename="Control.cpp" />
 		<Unit filename="Control.h" />
 		<Unit filename="MainMenu.cpp" />
 		<Unit filename="MainMenu.h" />
-		<Unit filename="Menu.h" />
 		<Unit filename="Object.cpp" />
 		<Unit filename="Object.h" />
+		<Unit filename="Pipe.cpp" />
+		<Unit filename="Pipe.h" />
 		<Unit filename="Player.cpp" />
 		<Unit filename="Player.h" />
+		<Unit filename="Score.cpp" />
+		<Unit filename="Score.h" />
 		<Unit filename="TextureManager.cpp" />
 		<Unit filename="TextureManager.h" />
+		<Unit filename="bestscore.cpp" />
+		<Unit filename="bestscore.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
