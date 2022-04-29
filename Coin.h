@@ -13,4 +13,5 @@ private:
 public:
     Coin();
 	void Render(SDL_Renderer* ren);
+	void newDest(double x,double y,double h,double w);
 };

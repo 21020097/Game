@@ -31,15 +31,17 @@ private:
     Object base_on;
     Object Quit,Quit_ed;
     Object mess;
+    Object Back,Back_ed;
+    Object New;
 
-
-    Player Bird;
+    Player Bird,Bird1,Bird2,Bird3;
     Mix_Chunk *jump,*mouse_click;
     Mix_Chunk *music;
     Mix_Chunk *diebird;
     Mix_Chunk *getScore;
 
-    Coin Coin;
+    Coin Coin,poinCoin;
+
     int score;
 
     Score poin;
@@ -48,12 +50,13 @@ private:
     {
         double x,y,h,w;
         bool flag;
-    }Top[5],Bottom[5];
+    }Top[5],Bottom[5],coinCheck;
     Object rectTop,rectBottom;
 
     Object gameover;
     Object replay,replay_ed;
-
+    Object Options,Options_ed;
+    bool isOptions;
     bestscore best;
 
     Object backgroundscore;
@@ -67,9 +70,12 @@ public:
     bool getMix();
     bool getOver();
 
+    bool getOptions();
+
     void Clear();
 
     bool Check(double x,double y,double h,double w);
+    bool Check2(double x,double y,double h,double w);
     bool in(double x,double y,Node r);
     void Gen();
     void Update();

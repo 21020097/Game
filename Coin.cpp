@@ -4,7 +4,12 @@ Coin::Coin()
 {
 	animationTimer = 0;
 	timer = 10;
-	coin.setDest(10,10,40,40);
+	//Coin.setDest(10,10,40,40);
+}
+
+void Coin::newDest(double x,double y,double h,double w)
+{
+    coin.setDest(x,y,h,w);
 }
 
 void Coin::Render(SDL_Renderer* ren)
